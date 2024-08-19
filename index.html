@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Youtube Mp3 Downloader</title>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/fomantic-ui/dist/semantic.min.js"></script>
+    <script src="mp3.js"></script>
+    <link rel="stylesheet" href="./node_modules/fomantic-ui/dist/semantic.min.css">
+</head>
+
+<body>
+    <div class="ui secondary pointing menu">
+        <a id="HomeM" class="item active">
+            Home
+        </a>
+    </div>
+
+    <div id="Home" class="ui container" style="display: block;">
+        <div class="ui grid">
+            <div class="seven wide column">
+                <div class="ui fluid input">
+                    <input type="text" placeholder="url" id="url">
+                </div>
+            </div>
+            <div class="seven wide column">
+                <div class="ui fluid input">
+                    <input type="text" placeholder="path" id="path">
+                </div>
+            </div>
+            <div class="two wide column">
+                <button id="DownBtn" class="fluid ui green button" onclick="download(document.getElementById('url').value,document.getElementById('path').value)">Download</button>
+            </div>
+        </div>
+        <div class="ui grid">
+            <div class="twelve wide column">
+                <div class="sixteen wide column">
+                    <h5 class="ui header">History</h5>
+                </div>
+                <div class="ui divider"></div>
+                <div id="History">
+
+                </div>
+            </div>
+            <div class="four wide column">
+                <div class="sixteen wide column">
+                    <h5 class="ui header">Progress</h5>
+                </div>
+                <div class="ui divider"></div>
+                <div id="Progress">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

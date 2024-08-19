@@ -1,0 +1,8 @@
+https://www.npmjs.com/package/@yohancolla/ytdl?activeTab=readme
+https://www.npmjs.com/package/@distube/ytdl-core -> ytdl 교체
+youtu.be/CqGOwGQtCFk?si=8HSNkZBnjXrHx7Wp -> electron require 못알아먹을때
+https://semantic-ui.com/
+
+https://stackoverflow.com/questions/68206050/breaking-change-webpack-5-used-to-include-polyfills-for-node-js-core-modules -> 폴리필 오류
+
+webkitdirectory
